@@ -107,7 +107,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 ### 4. Explore the code
 
 ```bash
-cd Desktop/Python-for-AI
+cd Desktop/machine_learning
 jupyter notebook        # for .ipynb notebooks
 # or
 python your_script.py   # for .py files
