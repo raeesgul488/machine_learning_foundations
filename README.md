@@ -56,16 +56,22 @@ The goal is simple: **understand the fundamentals deeply, not just run the code.
 
 ---
 
-## 📁 Repository Structure
+## 📂 Repository Structure
 
 ```text
 machine_learning_foundations/
 │
-├── Desktop/
-│   └── Python-for-AI/     # Python fundamentals for AI & ML
-│
-└── README.md              # You are here
-```
+├── .venv/                 # Virtual environment (ignored by Git)
+├── Data/                  # Datasets used in code
+│   └── salary_dataset.csv # Salary dataset for regression tasks
+├── Notebook-01.ipynb/     # Jupyter Notebooks folder
+│   ├── notebook-01.ipynb  # Practice notebook 01
+│   └── notebook-02.ipynb  # Practice notebook 02
+├── .gitignore             # Git ignore settings
+├── .lock / .python-version# Python version specification
+├── pyproject.toml         # Dependencies and project settings
+├── uv.lock                # Lockfile for uv package management
+└── README.md              # Project documentation
 
 As the repo grows, new folders will be added for each stage of the learning path (data handling, visualization, ML models, and projects).
 
